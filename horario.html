@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table thead th {
+            background-color: black;
+            color: white;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: center;
+        }
+
+        table tbody tr:nth-child(even) td {
+            background-color: #f1f1f1;
+        }
+
+        table tbody tr:hover td {
+            background-color: #e9e9e9;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Página Principal</a></li><br><br>
+                <li><a href="sobre.html">Sobre a Clínica</a></li><br><br>
+                <li><a href="horario.html">Horário de atendimento</a></li><br><br>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="src/pexels-tima-miroshnichenko-6235242.jpg" width="1000" alt="Cuidado com Pet">
+
+                <div class="content">
+                    <table width="900" height="300" cellspacing="0" cellpadding="5">
+                        <thead>
+                            <tr>
+                                <th colspan="4">Horário de Atendimento</th>
+                            </tr>
+                            <tr>
+                                <th title="Serviços">Serviços</th>
+                                <th>Segunda a Sexta</th>
+                                <th>Sábados</th>
+                                <th>Feriados</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Clinica Geral</td>
+                                <td>08h-19h</td>
+                                <td>08h-14h</td>
+                                <td>08h-14h</td>
+                            </tr>
+                            <tr>
+                                <td>Psicologia</td>
+                                <td>08h-19h</td>
+                                <td>08h-14h</td>
+                                <td>08h-14h</td>
+                            </tr>
+                            <tr>
+                                <td>Pediatria</td>
+                                <td>08-19h</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>Oftalmologia</td>
+                                <td>08-19h</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+                </div>
+
+                <div class="footer">
+                    <h2>Horário de atendimento</h2>
+                        <p>De Segunda à Sexta</p>
+                        <p>Até às 19hs</p>
+                        <p>Sábados e Feriados</p>
+                        <p>Até às 14hs</p>
+
+                    <h2>Fale conosco</h2>
+                        <p>Tel.: (11) 95577-3526</p>
+                        <p>WhatsApp.: (11) 95877-3526</p>
+                        <p>Email: amigofiel@gmail.com</p><br>
+
+                        <p>© 2025 Clínica Veterinária Amigo Fiel - Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

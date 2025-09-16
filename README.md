@@ -21,7 +21,7 @@ O objetivo do projeto é apresentar informações sobre a clínica, seus serviç
 
 - **HTML5** → Estrutura do site  
 - **CSS3** → Estilização e layout responsivo  
-- **Google Maps Embed** → Localização no mapa  
+- **Google Maps** → Localização no mapa  
 
 ## 🏗️ Estrutura das Páginas
 

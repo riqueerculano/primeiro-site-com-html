@@ -1,55 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template - Utilizar como modelo</title>
-    <link rel="stylesheet" href="base.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre a Clínica - Amigo Fiel</title>
+  <link rel="stylesheet" href="base.css">
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="menu">
-            <!-- Aqui vai o seu menu -->
-            <ul>
-                <li><a href="index.html">Página Principal</a></li><br><br>
-                <li><a href="sobre.html">Sobre a Clínica</a></li><br><br>
-                <li><a href="horario.html">Horário de atendimento</a></li><br><br>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
+  <div class="wrapper">
+
+    <!-- Navegação -->
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html" class="active">Sobre a Clínica</a></li>
+        <li><a href="horario.html">Horário de Atendimento</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main class="main">
+
+      <!-- Cabeçalho da página -->
+      <header class="header">
+        <figure>
+          <img src="src/pexels-tima-miroshnichenko-6234633.jpg" alt="Clínica veterinária">
+          <figcaption>Clínica Veterinária Amigo Fiel</figcaption>
+        </figure>
+      </header>
+
+      <!-- Seção sobre -->
+      <section class="content">
+        <div class="container">
+          <h1>Sobre Nós</h1>
+          <p>A <strong>Clínica Veterinária Amigo Fiel</strong> nasceu com a missão de oferecer cuidados de qualidade e carinho para os animais.</p>
+          <p>Contamos com uma equipe altamente qualificada, infraestrutura moderna e atendimento humanizado para garantir a melhor experiência de atendimento. Nossos serviços incluem <strong>clínica geral, pediatria, psicologia animal, oftalmologia, vacinação, nutrição</strong> e muito mais. Temos <strong>salas de cirurgia, laboratório próprio e amplos espaços de internação e monitoramento</strong>, proporcionando assim todo o conforto, bem-estar e segurança necessários para oferecer as melhores soluções em saúde animal.</p><br>
+          <p>Estamos localizados em São Paulo, prontos para cuidar do seu pet com todo o amor e dedicação que ele merece.</p>
         </div>
+      </section>
 
-        <div class="main">
-            <div class="header">
-                <img src="src/pexels-tima-miroshnichenko-6235108.jpg" width="1000" alt="Sobre a Clinica">
-            </div>
+      <!-- Rodapé -->
+      <footer class="footer">
+        <div class="container">
 
-            <div class="content">
-                <h1>CUIDADO E CARINHO COM SEU PET</h1>
-                
-                <p>Na <strong>Clínica Veterinária Amigo Fiel</strong>, cuidamos com carinho e dedicação da saúde e bem-estar do seu pet. Nossa equipe é formada por profissionais apaixonados por animais, sempre prontos para oferecer o melhor atendimento.</p>
+          <section class="horario">
+            <h2>Horário de Atendimento</h2>
+            <p><strong>Segunda a Sexta:</strong> até 19h</p>
+            <p><strong>Sábados e Feriados:</strong> até 14h</p>
+          </section>
 
-                <p>A <strong>Clínica Veterinária Amigo Fiel</strong> conta com algumas especialidades como <strong><mark>clinico geral, psicologia, oftalmologia e pediatria.</mark></strong> Oferecemos tudo que há de melhor no mercado, com equpamentos de última geração. Tudo isso para garantir qualidade no serviços prestados.</p>
-            </div>
+          <section class="contato">
+            <h2>Fale Conosco</h2>
+            <p><strong>Tel.:</strong> (11) 95577-3526</p>
+            <p><strong>WhatsApp:</strong> (11) 95877-3526</p>
+            <p><strong>Email:</strong> amigofiel@gmail.com</p>
+          </section>
 
-            <div class="footer">
-                <h2>Horário de atendimento</h2>
-                <p>De Segunda à Sexta</p>
-                <p>Até às 19hs</p>
-                <p>Sábados e Feriados</p>
-                <p>Até às 14hs</p>
-
-                <h2>Fale conosco</h2>
-                <p>Tel.: (11) 95577-3526</p>
-                <p>WhatsApp.: (11) 95877-3526</p>
-                <p>Email: amigofiel@gmail.com</p><br>
-
-                <p>© 2025 Clínica Veterinária Amigo Fiel - Todos os direitos reservados.</p>
-            </div>
+          <p class="direitos">© 2025 Clínica Veterinária Amigo Fiel - Todos os direitos reservados.</p>
         </div>
-    </div>
+      </footer>
+
+    </main>
+  </div>
 </body>
 
 </html>
+
